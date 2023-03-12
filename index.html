@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <link rel="sytlesheet" href="style.css"/>
+</head>
+<body>
+    <h2>REGISTRATION FORM</h2>
+    <form action="/action_page.php">
+        <fieldset  style="width: 50%">
+            <legend><b>WEEK_ONE TASK</b></legend><br>
+        
+        <label for="name"><b>Name:</b></label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required> 
+        <br><br>
+        <label for="email"><b>Email address:</b></label><br>
+        <input type="text" id="email" name="email" placeholder="example@gmail.com" required> 
+        <br><br>
+        <label for="phone"><b>Phone number:</b></label><br>
+        <input type="tel" id="phone" name="phone" placeholder="+2348000900000" required> 
+        <br><br>
+        <label for="gender"><b>Gender:</b></label><br>
+        <select id="gender" name="gender" required>
+            <option value="">Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            </select>
+            <br><br>
+            <label for="psw"><b>Password:</b></label><br>
+            <input type="number" id="psw" name="psw" placeholder="*******" required>  
+            <br><br>
+            <input type= "submit" id="submit" name="submit" value="Submit">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

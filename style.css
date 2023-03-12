@@ -1,0 +1,32 @@
+
+body {
+    font-size: 20px;
+}
+h2 {
+    text-align: center;
+    color: green;
+    text-transform: uppercase;
+}
+#name, #email, #phone, #gender, #psw {
+    padding: auto;
+    font-size: 16px;
+    border-radius: 1%;
+    box-sizing: border-box;
+}
+#submit {
+    background-color: darkolivegreen;
+    border-radius: 0cap;
+    width: 40%;
+}
+.name_field {
+    size: 40%;
+    
+}
+
+
+
+
+
+
+
+
